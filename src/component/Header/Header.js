@@ -8,13 +8,13 @@ import Avatar from '../Avatar/Avatar'
 function Header() {
   return (
       <Grid container columns={2}>
-        <Grid Header={8}>
+        <Grid header={8}>
           <Item><Logo /></Item>
         </Grid>
-        <Grid flexGrow={1} Header={4}>
+        <Grid flexGrow={1} header={4}>
           <Item><SearchBar /></Item>
         </Grid>
-        <Grid Header={8}>
+        <Grid header={8}>
           <Item><Avatar /></Item>
         </Grid>
       </Grid>
