@@ -2,31 +2,49 @@
   {
     "id": "1",
     "lastName": "dollé",
-    "firstName": "allan"
+    "firstName": "allan",
+    "age": 34,
+    "image": "https://images.unsplash.com/photo-1647891938250-954addeb9c51?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MXx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    "favoriteColor": "#2484FA"
   },
   {
     "id": "2",
     "lastName": "vivien",
-    "firstName": "bellaire"
+    "firstName": "bellaire",
+    "age": 20,
+    "image": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    "favoriteColor": "#2ADE53"
   },
   {
     "id": "3",
     "lastName": "yohann",
-    "firstName": "hamon"
+    "firstName": "hamon",
+    "age": 19,
+    "image": "https://images.unsplash.com/photo-1604537466158-719b1972feb8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxzZWFyY2h8OHx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    "favoriteColor": "#F5DF3B"
   },
   {
     "id": "4",
     "lastName": "martin",
-    "firstName": "femenias"
+    "firstName": "femenias",
+    "age": 22,
+    "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    "favoriteColor": "#DE632A"
   },
   {
     "id": "5",
     "lastName": "hassan",
-    "firstName": "iqbal"
+    "firstName": "iqbal",
+    "age": 21,
+    "image": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "favoriteColor": "#D930FF"
   },
   {
     "id": "6",
     "lastName": "iness",
-    "firstName": "ben aissa"
+    "firstName": "ben aissa",
+    "age": 20,
+    "image": "https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "favoriteColor": "#FF231E"
   }
 ]
