@@ -1,3 +1,17 @@
-{
-    "toto": "tata"
-}
+[
+  {
+    "userId": "1",
+    "timestamp": "1676013949",
+    "content": "Bonjour, je suis un simple post ! Je m'appel allan."
+  },
+  {
+    "userId": "3",
+    "timestamp": "1676013849",
+    "content": "Bonjour, je suis un simple post ! Je m'appel yohann."
+  },
+  {
+    "userId": "2",
+    "timestamp": "1676013859",
+    "content": "Bonjour, je suis un simple post ! Je m'appel vivien."
+  }
+]
