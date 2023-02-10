@@ -27,7 +27,20 @@ app.get("/users", function (req, res) {
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.status(200);
     return res.json(JSON.parse(users));
-  }, 2000);
+  }, 1000);
+});
+
+app.get("/posts", function (req, res) {
+  setTimeout(() => {
+    const posts = readFileSync(join(dataFolder, "posts.json"), {
+      encoding: "utf8",
+    });
+
+    res.setHeader("Content-Type", "application/json");
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.status(200);
+    return res.json(JSON.parse(posts));
+  }, 1000);
 });
 
 app.post("/user", function (req, res) {
@@ -58,7 +71,7 @@ app.post("/user", function (req, res) {
 
     res.status(201);
     res.json(newUsers);
-  }, 2000);
+  }, 1000);
 });
 
 app.listen(5000, () => {
