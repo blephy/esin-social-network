@@ -1,9 +1,10 @@
-import './App.css';
+import "./App.css";
 
-import Header from './component/Header/Header';
-import PostList from './component/PostList/PostList';
+import Header from "./component/Header/Header";
+import PostList from "./component/PostList/PostList";
+import UserList from "./component/UserList/UserList";
 
-function App() {
+function PostListRoot() {
   return (
     <div className="App">
       <Header />
@@ -12,4 +13,13 @@ function App() {
   );
 }
 
-export default App;
+function UserListRoot() {
+  return (
+    <div className="App">
+      <Header />
+      <UserList />
+    </div>
+  );
+}
+
+export { PostListRoot, UserListRoot };
