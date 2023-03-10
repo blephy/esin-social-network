@@ -43,6 +43,22 @@ app.get("/posts", function (req, res) {
   }, 1000);
 });
 
+app.get("/post/:id", function (req, res) {
+  res.setHeader("Content-Type", "application/json");
+  res.setHeader("Access-Control-Allow-Origin", "*");
+
+  const posts = readFileSync(join(dataFolder, "posts.json"), {
+    encoding: "utf8",
+  });
+
+  const post = JSON.parse(posts).find((post) => {
+    return post.id === req.params.id;
+  });
+
+  res.status(200);
+  res.json(post);
+});
+
 app.post("/user", function (req, res) {
   setTimeout(() => {
     res.setHeader("Content-Type", "application/json");

@@ -1,25 +1,31 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
-import { PostListRoot, UserListRoot } from "./App";
 import reportWebVitals from "./reportWebVitals";
+import App from "./App";
+import UserList from "./component/UserList/UserList";
+import PostList from "./component/PostList/PostList";
+import PostItem from "./component/PostItem/PostItem";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <UserListRoot />,
-  },
-  {
-    path: "/users",
-    element: <UserListRoot />,
-  },
-  {
-    path: "/posts",
-    element: <PostListRoot />,
+    element: <App />,
+    children: [
+      {
+        path: "users",
+        element: <UserList />,
+      },
+      {
+        path: "posts",
+        element: <PostList />,
+      },
+      {
+        path: "posts/:id",
+        element: <PostItem />,
+      },
+    ],
   },
 ]);
 

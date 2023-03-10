@@ -1,25 +1,15 @@
+import { Outlet } from "react-router";
 import "./App.css";
 
 import Header from "./component/Header/Header";
-import PostList from "./component/PostList/PostList";
-import UserList from "./component/UserList/UserList";
 
-function PostListRoot() {
+function App() {
   return (
     <div className="App">
       <Header />
-      <PostList />
+      <Outlet />
     </div>
   );
 }
 
-function UserListRoot() {
-  return (
-    <div className="App">
-      <Header />
-      <UserList />
-    </div>
-  );
-}
-
-export { PostListRoot, UserListRoot };
+export default App;
