@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import CircularProgress from "@mui/material/CircularProgress";
 import "./PostList.css";
+import PostItem from "../PostItem/PostItem";
 
 function PostList() {
   const [postList, setPostList] = useState([]);
@@ -28,9 +29,7 @@ function PostList() {
       ) : (
         postList.map((post, index) => (
           <div key={index}>
-            {post.timestamp}
-            <br />
-            {post.content}
+            <PostItem post={post} />
           </div>
         ))
       )}
