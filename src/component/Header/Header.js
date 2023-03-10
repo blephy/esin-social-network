@@ -2,7 +2,7 @@ import * as React from "react";
 import Grid from "@mui/material/Grid";
 import Item from "@mui/material/Grid";
 import Logo from "../Logo/Logo";
-import SearchBar from "../SearchBar/SearchBar";
+// import SearchBar from "../SearchBar/SearchBar";
 import Avatar from "../Avatar/Avatar";
 
 import "./Header.css";

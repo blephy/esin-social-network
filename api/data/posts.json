@@ -1,15 +1,18 @@
 [
   {
+    "id": "1",
     "userId": "1",
     "timestamp": "1676013949",
     "content": "Bonjour, je suis un simple post ! Je m'appel allan."
   },
   {
+    "id": "2",
     "userId": "3",
     "timestamp": "1676013849",
     "content": "Bonjour, je suis un simple post ! Je m'appel yohann."
   },
   {
+    "id": "3",
     "userId": "2",
     "timestamp": "1676013859",
     "content": "Bonjour, je suis un simple post ! Je m'appel vivien."

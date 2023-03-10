@@ -29,7 +29,7 @@ function PostList() {
       ) : (
         postList.map((post, index) => (
           <div key={index}>
-            <PostItem post={post} />
+            <PostItem id={post.id} />
           </div>
         ))
       )}
