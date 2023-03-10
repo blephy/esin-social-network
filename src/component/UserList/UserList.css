@@ -3,6 +3,8 @@
 }
 
 .container {
+    border: none;
     margin: 20px;
-    padding: 30px;
+    padding: 0px;
 }
+

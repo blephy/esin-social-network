@@ -2,9 +2,13 @@
     box-sizing: border-box;
     cursor: pointer;
     margin: 5px 0;
+    padding: 10px;
     height: 200px;
+    text-transform: capitalize;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .userItem:hover {
-    border: 1px solid black;
+    border: 1.5px solid black;
+    opacity: 0.8
 }
