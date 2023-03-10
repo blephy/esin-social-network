@@ -3,5 +3,23 @@
 }
 
 .link {
-    margin: 0 7px 0 7px;
+    display: inline-block;
+    padding: 8px 10px;
+    margin: 8px 10px 0px 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(116, 30, 192);
+    /* transition-property: transform, background-color;
+    transition-duration: ; */
+    transition: all ease-in-out 140ms;
+    /* transition: transform 2s 2s ease-in-out;   */
+}
+
+.link:hover
+{
+    background-color: rgb(236, 244, 255);
+    transform: scale(1.12, 1.12);
+    border-color: rgba(34, 0, 255, 0.864);
+    color: rgb(136, 0, 255);
 }
