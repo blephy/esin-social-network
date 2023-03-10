@@ -77,7 +77,7 @@ function UserItem(props) {
           <br />
           {user.age}
           <br />
-          <img url={user.image} width="100" height="100" />
+          <img src={user.image} width="100" height="100" />
         </div>
       )}
     </Fragment>

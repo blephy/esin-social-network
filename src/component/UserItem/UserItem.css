@@ -12,3 +12,7 @@
     border: 1.5px solid black;
     opacity: 0.8
 }
+
+img{
+    border-radius: 50px;
+}

@@ -8,3 +8,12 @@
     padding: 0px;
 }
 
+button
+{
+    background: #cacaca;
+}
+
+button:hover
+{
+    opacity: 0.9;
+}
