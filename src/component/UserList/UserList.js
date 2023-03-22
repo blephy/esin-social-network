@@ -6,7 +6,7 @@ import UserItem from "../UserItem/UserItem";
 
 function UserList() {
   const [userList, setUserList] = useState([]);
-  const [userSelected, setUserSelected] = useState("");
+  const [userSelected, setUserSelected] = useState(""); // hooks
   const [isLoading, setIsLoading]= useState(false)
 
   useEffect(() => {
